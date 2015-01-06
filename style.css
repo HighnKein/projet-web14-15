@@ -1,6 +1,21 @@
-banniere
+body
 {
-width : relative ;
-height : 200px ;
-background color : #444433;
+	font-size: 12pt;
+}
+
+.banniere
+{
+background-image : url("assets/banniere.png") ;
+background-repeat: no-repeat;
+background-size: float;
+margin: 0 auto;
+width: 1916px;
+height:376px;
+
+}
+
+
+#Titre
+{
+font-size: 24pt;
 }
