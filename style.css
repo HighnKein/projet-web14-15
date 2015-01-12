@@ -9,13 +9,35 @@ background-image : url("assets/banniere.png") ;
 background-repeat: no-repeat;
 background-size: float;
 margin: 0 auto;
-width: 1916px;
+width: 1400px;
 height:376px;
 
 }
 
+.header_nav 
+{
+    padding: 0px;
+    margin: 0px;
+    height: 44px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background: none repeat scroll 0% 0% #F3F3F3;
+}
+
+.nav_home
+{
+    width: 68px;
+    height: 33px;
+    background: url("/skins/images/specific-country/background/nav-home-left.png") no-repeat scroll 0px 8px transparent;
+    float: left;
+    display: inline;
+    padding-top: 7px;
+}
 
 #Titre
 {
-font-size: 24pt;
+font-size: 60pt;
+font-color: 
 }
