@@ -41,3 +41,49 @@ height:376px;
 font-size: 60pt;
 font-color: 
 }
+
+
+<!--body
+{
+	font-size: 12pt;
+}
+
+.banniere
+{
+background-image : url("assets/banniere.png") ;
+background-repeat: no-repeat;
+background-size: float;
+background-position : center;
+margin: 0 auto;
+width: 1400px;
+height:376px;
+
+}
+
+a{text-decoration: none;
+color:red;
+font-size:15pt;
+}
+
+a:hover {color: white;}
+
+li 
+{
+display : inline-block;
+list-style : none;
+
+}
+
+li:hover
+{
+background-color : black;
+}
+
+
+#Titre
+{
+font-size: 60pt;
+padding-left : 8pt ;
+padding-top : 6pt ;
+}
+-->
