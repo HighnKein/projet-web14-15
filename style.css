@@ -1,33 +1,149 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <title>Equipement de Football</title>
-  </head>
-  <body class="background">
-	<div class="banniere">
-	  <a href="./index.html"> <img src="assets/logo.jpg" alt="Cedric Seb Soccer" id="logo" width="12%"> </a>
-	  <div class="recherche">
-		  <form action="mon_panier.html">
-			<label>Rechercher un produit : <input type="text"  placeholder="Rechercher" id="recherche"	></label>
-		  </form>
-	  </div>
-	  <nav class="navMenu">
-		<ul id="menu">
-		
-			<a href="./maillots.html"><li class="menu">Maillots</li></a>
-			<a href="./chaussures.html"><li class="menu">Chaussures</li></a>
-			<a href="./accessoires.html"><li class="menu">Accessoires</li></a>
-			<a href="./contact.html"><li class="menu">Qui sommes-nous ?</li></a>
-			<a href="./mon_panier.html"><li class="menu" id="monpanier">Mon panier</li></a>
-	    </ul>
-	  </nav>
-	</div>
-	
-		<div class="corpus">
+body
+{
+font-size: 12pt;
+}
 
-		</div>	
-	
-  </body>
-<html/>
+.background
+{
+background-image: url("assets/background.jpg");
+background-position: fixed;
+background-repeat: repeat;
+background-position : top;
+}
+
+.banniere
+{
+background-image : url("assets/banniere.png") ;
+background-repeat: no-repeat;
+background-position : center;
+margin: -6em auto auto auto;
+width: 1400px;
+height:376px;
+display :block;
+}
+
+a
+{
+text-decoration: none;
+color:white;
+font-size:15pt;
+
+}
+
+a:hover 
+{
+color: black;
+}
+
+li.menu
+{
+display : inline-block;
+list-style : none;
+text-align : center;
+
+margin-left : 27px;
+margin-top : 10px;
+vertical-align: middle;
+font-size : 135%;
+width: 9em;
+font-weight: bolder ;
+line-height: 50px;
+border : solid;
+border-radius : 3em;
+background-color : rgba(255,255,255,0.3);
+}
+
+li:hover
+{
+-webkit-transition-duration: 1s;
+background-color : rgba(100,100,200,0.3);
+}
+
+label
+{
+font-size : 120% ;
+font-weight : borlder ;
+
+}
+
+.navMenu 
+{
+display : block ;	
+margin-left : auto;
+margin-right : auto ;
+margin-top: 1em;
+width : 100% ;
+}
+
+.forms 
+{
+padding : 1em ;
+margin-left : 8em ;
+font-size : 12O%;
+}
+
+button.forms
+{
+margin-left : 25em;
+margin-top : 3em ;
+}
+
+.corpus
+{
+width : 50%;
+height : 40em;
+margin : 50px auto auto auto;
+max-width : 1100px ;
+position : center ;
+background-color : rgba(200,50,50,0.9);
+padding-top : 3em ;
+padding-left : 5em;
+}
+
+#monpanier
+{
+background-color : yellow;
+color : blue;
+}
+
+.recherche 
+{
+position : absolute;
+margin-left : 42em;
+margin-top : -1em ; 
+padding : 0.7 em;
+font-size : 140%;
+background-color : rgba(255,255,255,0.3);
+font-weight : bolder;
+}
+
+#recherche
+{
+padding : 0.5em ;
+margin-bottom : 0.4em ;
+margin-right : 0.2em;
+}
+
+#menu
+{
+display : table-row ;
+margin-left : 3em;
+padding : auto ;
+}
+
+.name
+{
+font-size : 200%;
+}
+
+.presentation
+{
+font-size : 140%;
+margin-top : 0;
+}
+
+#logo
+{
+margin : 5.5em auto auto 1.5em ;
+border-radius : 2em;
+}
