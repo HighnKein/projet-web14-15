@@ -25,21 +25,18 @@
 		  </nav>
 		</div>	
 		<div class="corpus">
-		  <p id="intro">Bienvenue sur notre site de vente. Les produits présentés sur ce site ne concernent que le domaine du Football.</p>
-		  <h1>Articles en promotion</h1>
-			<div class="article1">
-				<a href="articles/chaussure1.html"><img src="assets/articles/chaussure1.jpg" alt="Chaussure 1" width="100em" class="img"></a>
-				<div class="description">
-				<a href="articles/chaussure1.html"><h2>Maillot bleu turquoise / or</h2></a> 
-				
-				</div>
-			</div>
-			<div class="article2">
-				<a href="articles/ballon2.html"><img src="assets/articles/ballon2.jpg" alt="Ballon 2" width="100em" class="img"></a>
-				<div class="description">
-				<a href="articles/ballon2.html"><h2>Ballon officiel</h2></a> 			
-				</div>			
-			</div>
+		  <div class="formulaire_forms">
+				<div class="forms"><label>Nom : <input name"nom"></label></div>
+				<div class="forms"><label>Prénom : <input name"prenom"></label></div>
+				<div class="forms"><label>Adresse : <input name"adresse" placeholder="Rue, bâtiment, étage, etc."></label></div>
+				<div class="forms"><label>Téléphone : <input name"tel"></label></div>
+				<div class="forms"><label>Ville : <input name"ville"></label></div>
+				<div class="forms"><label>Code postal : <input name"cp"></label></div>			
+				<div class="forms"><label>Pays ou DOM-TOM : <select> <option>France</option><option>Tahiti</option></label></div></select>	
+			<form action="com_valide.html">
+				<button id="commander" class="forms">Commander</button>
+			</form>
+		  </div>
 		</div>	
 	</div>
   </body>

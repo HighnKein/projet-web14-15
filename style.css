@@ -1,6 +1,8 @@
 body
 {
-font-size: 12pt;
+font-size: 10pt;
+display : block ;
+font-family : arial ;
 }
 
 .background
@@ -11,15 +13,25 @@ background-repeat: repeat;
 background-position : top;
 }
 
+.main
+{
+width: 70vw;
+max-width : 1400px ;
+margin : 0px auto ;
+position : center ;
+}
+
 .banniere
 {
 background-image : url("assets/banniere.png") ;
 background-repeat: no-repeat;
 background-position : center;
-margin: -6em auto auto auto;
-width: 1400px;
-height:376px;
+position :center ;
+margin-left : auto ;
+margin-right : auto ;
+max-height: 270px;
 display :block;
+border-radius : 1em ;
 }
 
 a
@@ -35,36 +47,40 @@ a:hover
 color: black;
 }
 
-li.menu
+.menu 
 {
-display : inline-block;
-list-style : none;
 text-align : center;
-
-margin-left : 27px;
-margin-top : 10px;
-vertical-align: middle;
-font-size : 135%;
-width: 9em;
-font-weight: bolder ;
-line-height: 50px;
-border : solid;
-border-radius : 3em;
-background-color : rgba(255,255,255,0.3);
 }
 
-li:hover
+.menu ul
+{
+display : inline-block;
+position : bottom ;
+margin : 0;
+padding : 0;
+width : 100%;
+}
+
+.menu li
+{
+float : left ;
+list-style : none; 
+text-align : center;
+line-height: 2em;
+width : 20%;
+border-radius : 3em;
+background-color : rgba(20,50,200,0.7);
+vertical-align: middle;
+font-size : 12pt;
+font-weight: bolder ;
+}
+
+.menu li:hover
 {
 -webkit-transition-duration: 1s;
 background-color : rgba(100,100,200,0.3);
 }
 
-label
-{
-font-size : 120% ;
-font-weight : borlder ;
-
-}
 
 .navMenu 
 {
@@ -75,29 +91,111 @@ margin-top: 1em;
 width : 100% ;
 }
 
+.corpus
+{
+display : inline-block ; 
+float : left ;
+margin-top : 2em ;
+width : 100%;
+border-radius : 3em ;
+background-color : rgba(255,255,255,0.7);
+}
+
+.corpus .forms_com
+{margin : 2em auto 2em 25em;}
+
+h1
+{
+margin-left : 5%;
+}
+
+h2
+{margin : 0.5em;}
+
+.article1
+{
+display : table;
+width : 86%;
+margin : 2em auto 2em 7%;
+border : 2px solid black;
+border-radius : 3em ;
+background-image : url("assets/background2.jpg");
+}
+
+.article2
+{
+display : table;
+width : 86%;
+margin : 2em auto 2em 7%;
+border : 2px solid black;
+border-radius : 3em ;
+background-image : url("assets/background2.jpg");}
+
+.img
+{  
+display : inline-block ;
+width : 17%;
+margin : 1em auto auto 1.5em;
+border-radius : 1em ;
+background-color :black;
+}
+
+.description
+{
+display : inline-block ;
+background-color : rgba(255,255,255,0.7);
+padding-left : 0.7em ;
+width: 67%;
+padding : 0.5em;
+margin : 1em 2em 1em 5%;
+border-radius : 1em ;
+}
+
+.description a 
+{color : green;}
+
+#intro 
+{
+margin : 2em auto auto 2em ;
+font-size : 120%;
+color : blue ;
+}
+
 .forms 
 {
 padding : 1em ;
-margin-left : 8em ;
-font-size : 12O%;
+font-size : 1em;
 }
 
-button.forms
+#panier.forms
+{margin : 2em auto auto 45%;}
+
+#accueil.forms
+{margin : 2em auto 2em 43%;}
+
+#passer_commande.forms
+{margin : 2em auto 2em 70%;}
+ 
+#commander.forms
 {
-margin-left : 25em;
-margin-top : 3em ;
+margin : 2em auto 2em 60%;
+} 
+ 
+#description.forms 
+{
+margin : auto auto 1em 60% ;
 }
 
-.corpus
+#com_valide.forms 
 {
-width : 50%;
-height : 40em;
-margin : 50px auto auto auto;
-max-width : 1100px ;
-position : center ;
-background-color : rgba(200,50,50,0.9);
-padding-top : 3em ;
-padding-left : 5em;
+margin : 2em auto 2em 40%;
+}
+
+label
+{
+font-size : 120% ;
+font-weight : bolder ;
+
 }
 
 #monpanier
@@ -108,42 +206,64 @@ color : blue;
 
 .recherche 
 {
-position : absolute;
-margin-left : 42em;
-margin-top : -1em ; 
-padding : 0.7 em;
-font-size : 140%;
-background-color : rgba(255,255,255,0.3);
+text-align : right ;
+width : 50%;
+margin : auto 1em 1em auto ; 
+font-size : 100%;
 font-weight : bolder;
 }
 
-#recherche
-{
-padding : 0.5em ;
-margin-bottom : 0.4em ;
-margin-right : 0.2em;
-}
 
 #menu
 {
 display : table-row ;
-margin-left : 3em;
+margin : auto ;
+width : 70%;
 padding : auto ;
 }
 
-.name
+.h1
 {
+margin : 1em auto 0em 1em ;
 font-size : 200%;
 }
 
-.presentation
+#info
 {
-font-size : 140%;
+font-size : 120%;
+margin-left : 2em ;
 margin-top : 0;
+}
+
+.formulaire_forms
+{
+margin : 2em 17% 2em 17%;
+width : 66%;
+background-color : white ;
 }
 
 #logo
 {
-margin : 5.5em auto auto 1.5em ;
-border-radius : 2em;
+margin : 0.5em auto auto 0.7em ;
+border-radius : 1.6em; 
+}
+
+#presentation.corpus 
+{display : table;}
+
+.seb
+{
+display : inline-block ;
+margin : 2em 4% 2em 4%;
+width : 40%;
+text-align : center ;
+}
+
+
+.ced
+{
+display : inline-block;
+margin : 2em 4% 2em 4% ;
+width : 40%;
+text-align : center ;
 }
